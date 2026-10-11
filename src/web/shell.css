@@ -1,0 +1,43 @@
+:root {
+  color-scheme: light;
+  --dsw-alias-label-primary: #20211e;
+  --dsw-alias-label-tertiary: #74756f;
+  --dsw-alias-border-l2: #d9d9d2;
+  --dsw-alias-bg-layer-3: #fafaf7;
+  --dsw-alias-state-business-primary: #20211e;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { font-family: 'Microsoft YaHei', 'Segoe UI', sans-serif; background: #eeede6; color: #20211e; }
+#dsh-startup-root.dsu-boot { position: fixed; inset: 0; background: #000; z-index: 2147483000; }
+#landing { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; }
+#landing h1 { margin: 0; font: 500 36px 'Segoe UI', sans-serif; letter-spacing: -.04em; }
+#landing p { margin: 0 0 12px; font-size: 13px; letter-spacing: .12em; color: #71716b; }
+button { cursor: pointer; font: inherit; }
+.landing-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.landing-actions button, #closeSettings { border: 1px solid #c9c9c2; background: transparent; border-radius: 4px; padding: 9px 16px; color: #383934; font-size: 12px; }
+.landing-actions .primary { background: #20211e; color: #fff; border-color: #20211e; }
+button:focus-visible { outline: 2px solid #10a37f; outline-offset: 4px; }
+#landingStatus { font-size: 12px; min-height: 18px; color: #74756f; }
+#tools { position: fixed; z-index: 2147483500; top: 84px; right: 46px; display: flex; gap: 8px; }
+#tools button { border: 1px solid transparent; padding: 5px 10px; font: 11px 'Microsoft YaHei', sans-serif; letter-spacing: .12em; background: transparent; color: #7f807b; opacity: .65; }
+#tools button:hover, #tools button:focus-visible { border-color: #bfc0b8; opacity: 1; }
+#settingsDialog { position: fixed; inset: 0; z-index: 2147483700; background: #191a1680; backdrop-filter: blur(6px); display: flex; align-items: center; justify-content: center; }
+#settingsDialog[hidden] { display: none; }
+.settings-window { width: min(800px, 94vw); height: min(820px, 92vh); background: #f7f7f2; border-radius: 8px; box-shadow: 0 30px 90px #0003; display: flex; flex-direction: column; overflow: hidden; }
+.settings-window header { display: flex; align-items: center; justify-content: space-between; padding: 22px 30px; border-bottom: 1px solid #ddddd5; }
+.settings-window small { font: 10px Consolas, monospace; letter-spacing: .16em; color: #8a8b84; }
+.settings-window h2 { font-size: 20px; font-weight: 500; margin: 5px 0 0; }
+.settings-content { padding: 26px 30px; overflow-y: auto; flex: 1; }
+#settingsPanel .__ss_root { max-width: none; }
+#settingsPanel .__ss_btnPrimary { background: #20211e; border-color: #20211e; color: #fff; }
+#settingsPanel .__ss_input, #settingsPanel .__ss_select { min-width: 0; }
+#settingsPanel .__ss_two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+body.settings-only #tools { display: none; }
+body.dark { color-scheme: dark; background: #141612; color: #edeee8; --dsw-alias-label-primary: #edeee8; --dsw-alias-label-tertiary: #a1a39a; --dsw-alias-border-l2: #42463c; --dsw-alias-bg-layer-3: #262a22; --dsw-alias-state-business-primary: #afb5a2; }
+body.dark .settings-window { background: #1b1f17; }
+body.dark .settings-window header { border-color: #42463c; }
+body.dark #closeSettings { color: #edeee8; border-color: #585f4d; }
+body.dark #landing > img { filter: invert(1); }
+body.dark #landing h1 { color: #edeee8; }
+@media (max-width: 600px) { .settings-content { padding: 18px; } .settings-window header { padding: 18px; } #settingsPanel .__ss_two { grid-template-columns: 1fr; } #tools { right: 20px; } }

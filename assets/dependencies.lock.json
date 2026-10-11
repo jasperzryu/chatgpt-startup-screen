@@ -1,0 +1,52 @@
+{
+  "upstreamCommit": "4a2cfe642867fac013fdef90095981544a819a2a",
+  "downloads": [
+    {
+      "name": "dsh-startup-screen v1.1.0",
+      "url": "https://codeload.github.com/6shenhonghong9/dsh-startup-screen/zip/4a2cfe642867fac013fdef90095981544a819a2a",
+      "destination": "upstream/source.zip",
+      "sha256": "fb777dceee6579d552525ed2029a293cc4f5bde590a26e1374373ca35774cd82",
+      "extractTo": "upstream",
+      "sentinel": "upstream/dsh-startup-screen-4a2cfe642867fac013fdef90095981544a819a2a/lib/splash.js"
+    },
+    {
+      "name": "Microsoft WebView2 SDK 1.0.4258.31",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.4258.31/microsoft.web.webview2.1.0.4258.31.nupkg",
+      "destination": "runtime/webview2-sdk.zip",
+      "sha256": "56f7f4b8bf9aee4b8efefbbdd4f67d5f74ebd1b100ed0806da71bf76af481aa9",
+      "extractTo": "runtime/webview2-sdk",
+      "sentinel": "runtime/webview2-sdk/lib/net462/Microsoft.Web.WebView2.Core.dll"
+    },
+    {
+      "name": "OpenAI Sans Light",
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Light.woff2",
+      "destination": "assets/fonts/OpenAISans-Light.woff2",
+      "sha256": "c2c26cdd6435939de20a7bd90466e1435d3fd7141934ba9942f31a18280224bf"
+    },
+    {
+      "name": "OpenAI Sans Regular",
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2",
+      "destination": "assets/fonts/OpenAISans-Regular.woff2",
+      "sha256": "6b99d0284d5ed15733ea855fdacc8503d1f5e1b3945b02317d27773daa21d9dc"
+    },
+    {
+      "name": "OpenAI Sans Medium",
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Medium.woff2",
+      "destination": "assets/fonts/OpenAISans-Medium.woff2",
+      "sha256": "507174d2e2c80f877d900e1346ba142509d303e2ef74424665e8493258c841e3"
+    },
+    {
+      "name": "OpenAI Sans Semibold",
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Semibold.woff2",
+      "destination": "assets/fonts/OpenAISans-Semibold.woff2",
+      "sha256": "e99a4258393f746552665fb8a07a7dcdacf2af4834cc0611148761005c7e006d"
+    },
+    {
+      "name": "IBM Plex Mono Regular",
+      "url": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-mono/fonts/complete/woff2/IBMPlexMono-Regular.woff2",
+      "destination": "assets/fonts/IBMPlexMono-Regular.woff2",
+      "sha256": "ba204497f16b6d334cee9d1e963a831b73e3a56e1d6300a8489d18df7214b350"
+    }
+  ]
+}
+

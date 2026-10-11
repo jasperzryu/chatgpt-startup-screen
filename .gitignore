@@ -1,0 +1,30 @@
+# Generated applications, adapted upstream code and verification output.
+/adapted/
+/build/
+/install-check/
+/runtime/
+/publish-check/
+/tools/
+/upstream/*
+!/upstream/COMMIT.txt
+
+# Fonts are fetched from their original publishers by prepare.ps1.
+/assets/fonts/
+/assets/official-blossom.svg
+/assets/official-brand-page.html
+/assets/*.zip
+
+# Local installation state and credentials never belong in the repository.
+/*-report.json
+**/data/
+**/test-data/
+**/WebView2/
+*.log
+*.lnk
+*.download
+.env
+.env.*
+node_modules/
+.DS_Store
+Thumbs.db
+

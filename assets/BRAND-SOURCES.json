@@ -1,0 +1,28 @@
+{
+  "reference": "https://openai.com/brand/",
+  "wordmark": {
+    "source": "https://openai.com/zh-Hans-CN/brand/",
+    "selector": "[data-testid=header-brand-wordmark] svg",
+    "viewBox": "0 0 292 78",
+    "geometry": "Unchanged"
+  },
+  "blossom": {
+    "source": "https://images.ctfassets.net/kftzwdyauwt9/3hUGLn3ypllZ0oa01qOYVq/28e8188e6f11b84c3e876569d492734f/Blossom_Light.svg",
+    "geometry": "Unchanged right-hand solid Blossom path; standalone viewBox follows its bounds"
+  },
+  "fonts": [
+    "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Light.woff2",
+    "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2",
+    "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Medium.woff2",
+    "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Semibold.woff2"
+  ],
+  "ownership": "OpenAI wordmark, Blossom, ChatGPT and OpenAI Sans belong to OpenAI.",
+  "purpose": "Personal startup customization that opens the user's installed OpenAI application. Not an official release.",
+  "monospace": {
+    "name": "IBM Plex Mono",
+    "source": "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-mono/fonts/complete/woff2/IBMPlexMono-Regular.woff2",
+    "blob": "8bdb4c4b3f8fae88cc2e3c9c744952dccf89b15a",
+    "license": "SIL Open Font License 1.1",
+    "licenseSource": "https://raw.githubusercontent.com/IBM/plex/master/LICENSE.txt"
+  }
+}
